@@ -1,0 +1,15 @@
+DAILYGUIDEHUB — 4 NEW ARTICLES
+
+Upload these four HTML files into the existing repository folder:
+new-articles/
+
+Files:
+1. research-country-before-moving.html
+2. avoid-rental-scams-abroad.html
+3. choose-mobile-plan-abroad.html
+4. travel-emergency-plan.html
+
+They already use the existing site's ../assets/style.css and navigation structure.
+
+After uploading, the site will contain 12 articles total.
+Next step: update index.html/categories.html links if desired, then create sitemap.xml and submit the site to search engines.
