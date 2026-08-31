@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Philippines Chat — Online Now</title>
+<meta name="description" content="A friendly Philippines chat page. Tap to continue to WhatsApp.">
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0; min-height:100vh; font-family:Arial,Helvetica,sans-serif;
+  background:#050507; color:#fff; display:flex; justify-content:center;
+}
+.page{width:min(100%,760px); padding:18px 14px 110px; text-align:center}
+.hero{
+  width:100%; max-width:670px; display:block; margin:0 auto 18px;
+  border-radius:18px; box-shadow:0 10px 40px rgba(255,0,160,.18);
+}
+.badge{
+  display:inline-flex; align-items:center; gap:7px; padding:7px 13px;
+  border:1px solid #ff2a9d; border-radius:999px; background:#160b18;
+  color:#ffd5ef; font-weight:700; font-size:13px;
+}
+h1{font-size:clamp(28px,7vw,48px); margin:16px 0 8px; line-height:1.05}
+p{color:#c9c9d0; font-size:16px; line-height:1.5; margin:0 auto 18px; max-width:540px}
+.card{
+  margin:0 auto; max-width:560px; padding:18px; border-radius:20px;
+  background:linear-gradient(145deg,#1a0b1e,#09090d);
+  border:1px solid #5b164d; box-shadow:0 8px 30px rgba(255,0,160,.12)
+}
+.cta{
+  display:block; width:100%; padding:16px 20px; border-radius:14px;
+  background:linear-gradient(90deg,#ff1b91,#c51aff); color:white;
+  text-decoration:none; font-weight:800; font-size:18px;
+  box-shadow:0 8px 22px rgba(255,0,160,.25);
+}
+.note{font-size:12px;color:#8f8f99;margin-top:12px}
+footer{margin-top:22px;color:#666;font-size:11px}
+</style>
+</head>
+<body>
+<main class="page">
+  <div class="badge">🇵🇭 PHILIPPINES • ONLINE NOW</div>
+  <h1>Looking for someone to talk to? 💗</h1>
+  <p>Friendly conversation is just one tap away. If WhatsApp chat is available, use the button below.</p>
+
+  <img class="hero" src="assets/hero-reference.jpg" alt="Philippines chat profile preview">
+
+  <section class="card">
+    <!-- Replace YOUR_NUMBER with the WhatsApp number in international format, without + or spaces. -->
+    <a class="cta" href="#" id="chatBtn">💬 Click to Chat on WhatsApp</a>
+    <div class="note">WhatsApp number will be connected here when you have one.</div>
+  </section>
+
+  <footer>18+ audience • Please chat respectfully.</footer>
+</main>
+
+<script>
+document.getElementById('chatBtn').addEventListener('click', function(e){
+  e.preventDefault();
+  alert('WhatsApp number is not connected yet. Add the number in this page first.');
+});
+</script>
+</body>
+</html>
